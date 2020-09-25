@@ -20,9 +20,7 @@ We use Tainwan's used cars Dataset from used cars website(e.g. 8891, Hotcar...),
 
 Keras Xception (https://keras.io/api/applications/xception/)  
 
-## Usage
-
-### Data Pre-processing
+## Data Pre-processing
 We use pre-trained model to distinguisgh between car-inner and car-shape.
 If you want to know the pre-procssing, you can see the code file "car_picture_preprocess.ipyn".
 Then, we only use car-shape pictures to make the model more precisely.
@@ -31,7 +29,7 @@ example for car inner picture:
 
 ![image](https://github.com/friends168888/Car-Model-Recognition/blob/master/inner.jpg)
 
-### Training the model
+## Training the model
 1. Load car pictures from every car-type folders.
 2. Use cv2 to resize pictures in (80,80) and transfrom pictures to array.
 3. Lable every pictures with car-type.
