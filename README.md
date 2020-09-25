@@ -65,6 +65,15 @@ Submit predictions of test data set (8,041 testing images) at [Cars Dataset](htt
 
  ![image](https://github.com/foamliu/Car-Recognition-PyTorch/raw/master/images/test.jpg)
 
+## The end result
+Due to small size of the data set the simplest model turned out to be the most accurate.
+We used early stopping to get rid of overfitting.
+I managed to train VGG16 network with 66,11% accuracy on cross validation data set (drop out = 0.8, no learning rate decay). Below you will find the accuracy over epochs (red - val_accuracy, blue - train accuracy).
+![alt text](https://github.com/friends168888/Car-Model-Recognition/blob/master/Training%20Loss%20and%20Accuracy%20on%20Model_Xception.png "accuracy over epochs for VGG16")
+
+The more complex model (ex. InceptionV3) the less accurate results are. This is understanable due to bias/variance problem.
+
+
 ### Demo
 
 ![image](https://github.com/foamliu/Car-Recognition-PyTorch/raw/master/images/samples/07647.jpg)
