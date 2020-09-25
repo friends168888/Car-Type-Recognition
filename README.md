@@ -1,28 +1,20 @@
 # Car Recognition
 
 
-This repository is to do car recognition by fine-tuning ResNet-152 with Cars Dataset from Stanford.
+This repository is to do car type recognition by ResNet-152 with Cars Dataset from Stanford.
 
 
 ## Dependencies
 
-- Python 3.6.8
-- PyTorch 1.3
+- Python 3.7
+- Tensorflow 2.2.0
+- Keras 2.3.1
 
 ## Dataset
 
 We use the Cars Dataset, which contains 16,185 images of 196 classes of cars. The data is split into 8,144 training images and 8,041 testing images, where each class has been split roughly in a 50-50 split.
 
  ![image](https://github.com/foamliu/Car-Recognition-PyTorch/raw/master/images/random.jpg)
-
-You can get it from [Cars Dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html):
-
-```bash
-$ cd Car-Recognition-PyTorch
-$ wget http://imagenet.stanford.edu/internal/car196/cars_train.tgz
-$ wget http://imagenet.stanford.edu/internal/car196/cars_test.tgz
-$ wget --no-check-certificate https://ai.stanford.edu/~jkrause/cars/car_devkit.tgz
-```
 
 ## ImageNet Pretrained Models
 
