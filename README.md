@@ -23,10 +23,11 @@ Keras Xception (https://keras.io/api/applications/xception/)
 ## Usage
 
 ### Data Pre-processing
-Extract 8,144 training images, and split them by 80:20 rule (6,515 for training, 1,629 for validation):
-```bash
-$ python pre_process.py
-```
+We use pre-trained model to distinguisgh between car-inner and car-shape.
+Then, we only use car-shape pictures to make the model more precisely.
+
+example for car inner picture:
+![image](https://github.com/friends168888/Car-Model-Recognition/blob/master/inner.jpg)
 
 ### Train
 ```bash
