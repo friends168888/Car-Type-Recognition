@@ -1,7 +1,7 @@
 # Car Recognition
 
 
-This repository is to do car type recognition by ResNet-152 with Cars Dataset from Stanford.
+This repository is to do car-type recognition by Xception with Tainwan's used cars Dataset from used cars website(e.g. 8891, Hotcar...).
 
 
 ## Dependencies
@@ -12,7 +12,7 @@ This repository is to do car type recognition by ResNet-152 with Cars Dataset fr
 
 ## Dataset
 
-We use the Cars Dataset, which contains 16,185 images of 196 classes of cars. The data is split into 8,144 training images and 8,041 testing images, where each class has been split roughly in a 50-50 split.
+We use Tainwan's used cars Dataset from used cars website(e.g. 8891, Hotcar...), which contains 225,546 images of 142 classes of cars. The data is split into 180,436 training images and 45,100 testing images, where each class has been split roughly in a 80-20 split.
 
  ![image](https://github.com/foamliu/Car-Recognition-PyTorch/raw/master/images/random.jpg)
 
