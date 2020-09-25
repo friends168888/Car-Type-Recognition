@@ -1,7 +1,7 @@
 # Car Recognition
 
 
-This repository is to do car-type recognition by Xception with Tainwan's used cars Dataset from used cars website(e.g. 8891, Hotcar...).
+This repository is to do car-type recognition by Xception with Tainwan's used cars Dataset from used cars website(e.g. 8891, Hotcar and etc.).
 
 
 ## Dependencies
@@ -24,22 +24,24 @@ Keras Xception (https://keras.io/api/applications/xception/)
 
 ### Data Pre-processing
 We use pre-trained model to distinguisgh between car-inner and car-shape.
+If you want to know the pre-procssing, you can see the code file "car_picture_preprocess.ipyn".
 Then, we only use car-shape pictures to make the model more precisely.
 
 example for car inner picture:
+
 ![image](https://github.com/friends168888/Car-Model-Recognition/blob/master/inner.jpg)
 
-### Train
-```bash
-$ python train.py
-```
+### Training the model
+1. Load car pictures from every car-type folders.
+2. Use cv2 to resize pictures in (80,80) and transfrom pictures to array.
+3. Lable every pictures with car-type.
+4. Transform pictures and labels to numpy array.
+5. Split pictures and in a 80-20 split , labels transform to be categorical.
+6. Set parameters of the trained model(e.g. epochs = 100, batch size = 32 and etc.).
+7. Save the model and the label with pickle.
+8. Visualize Loss and Accuracy.
 
-If you want to visualize during training, run in your terminal:
-```bash
-$ tensorboard --logdir runs
-```
-
- ![image](https://github.com/foamliu/Car-Recognition-PyTorch/raw/master/images/train.jpg)
+More details in the file "CNN_CAR_IMAGE_model.ipynb".
 
 ### Analysis
 Update "model_weights_path" in "utils.py" with your best model, and use 1,629 validation images for result analysis:
