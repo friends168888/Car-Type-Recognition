@@ -41,7 +41,7 @@ example for car inner picture:
 7. Save the model and the label with pickle.
 8. Visualize Loss and Accuracy.
 
-More details in the file "CNN_CAR_IMAGE_model.ipynb".
+More details in the code file "CNN_CAR_IMAGE_model.ipynb".
 
 ## The end result
 The end result with 97.5% accuracy and 80.4% valid accuracy.
@@ -53,6 +53,10 @@ I think the model has a little overfitting, so you can set dropout or add more d
 
 
 ## Demo
+
+I use the package "argparse" to set parameters, then you can predict the picture and label the type on the picture.
+
+More details in the code file "predict.py".
 
 ![image](https://github.com/friends168888/Car-Model-Recognition/blob/master/testy.jpg)
 
