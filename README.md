@@ -1,4 +1,4 @@
-# Car Recognition
+# Car-type Recognition
 
 
 This repository is to do car-type recognition by Xception with Tainwan's used cars Dataset from used cars website(e.g. 8891, Hotcar and etc.).
