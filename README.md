@@ -16,7 +16,7 @@ We use Tainwan's used cars Dataset from used cars website(e.g. 8891, Hotcar...),
 
  ![image](https://github.com/friends168888/Car-Model-Recognition/blob/master/pjimage.jpg)
 
-## ImageNet Pretrained Models
+## Model
 
 Keras Xception (https://keras.io/api/applications/xception/)  
 
