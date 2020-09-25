@@ -54,9 +54,10 @@ I think the model has a little overfitting, so you can set dropout or add more d
 
 ## Demo
 
-![image](https://github.com/foamliu/Car-Recognition-PyTorch/raw/master/images/samples/07647.jpg)
+![image](https://github.com/friends168888/Car-Model-Recognition/blob/master/testy.jpg)
 
 ```bash
-class_name: Lamborghini Reventon Coupe 2008
-prob: 0.9999994
+$ python predict.py -m model_xception0819.h5 -i testy.jpg -l lb_xception0819.pickle -s
+```
 
+![image](https://github.com/friends168888/Car-Model-Recognition/blob/master/testy_predict.JPG)
