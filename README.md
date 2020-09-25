@@ -13,8 +13,8 @@ This repository is to do car-type recognition by Xception with Tainwan's used ca
 ## Dataset
 
 We use Tainwan's used cars Dataset from used cars website(e.g. 8891, Hotcar, etc.), which contains 225,546 images of 142 classes of cars. 
-TO make the model precisely,every class of cars has 600 up pictures.
-The data is split into 180,436 training images and 45,100 testing images, where each class has been split roughly in a 80-20 split.
+To make the model precisely,every class of cars has 600 upv pictures.
+The data is split into 180,436 training images and 45,110 testing images, where each class has been split roughly in a 80-20 split.
 
  ![image](https://github.com/friends168888/Car-Model-Recognition/blob/master/pjimage.jpg)
 
