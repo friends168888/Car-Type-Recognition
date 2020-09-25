@@ -14,11 +14,11 @@ This repository is to do car-type recognition by Xception with Tainwan's used ca
 
 We use Tainwan's used cars Dataset from used cars website(e.g. 8891, Hotcar...), which contains 225,546 images of 142 classes of cars. The data is split into 180,436 training images and 45,100 testing images, where each class has been split roughly in a 80-20 split.
 
- ![image](https://github.com/foamliu/Car-Recognition-PyTorch/raw/master/images/random.jpg)
+ ![image](https://github.com/friends168888/Car-Model-Recognition/blob/master/pjimage.jpg)
 
 ## ImageNet Pretrained Models
 
-Download [ResNet-152](https://drive.google.com/file/d/0Byy2AcGyEVxfeXExMzNNOHpEODg/view?usp=sharing) into models folder.
+Keras Xception (https://keras.io/api/applications/xception/)  
 
 ## Usage
 
